@@ -17,11 +17,11 @@
     border: 1px solid #000000;
     padding: 10px;
     text-align: left;
-    color: rgb(255, 255, 255); /* Font color set to white */
+    color: rgb(255, 255, 255);
   }
   
   .table th {
     background-color: #000000;
-    font-family: 'Comic Sans MS', sans-serif; /* Change the font to Comic Sans MS */
+    font-family: 'Comic Sans MS', sans-serif;
   }
   

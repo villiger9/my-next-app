@@ -4,19 +4,24 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #33333300; /* Change the background color as needed */
+    background-color: #33333300;
     padding: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    z-index: 1000;
+}
+.navbar.hidden {
+    top: -60px; /* Adjust the value to hide the navbar completely */
 }
   
 .navbar a {
-    color: white; /* Change the font color as needed */
+    color: white;
     text-decoration: none;
-    font-family: 'Comic Sans MS', sans-serif; /* Change the font family as needed */
-    font-size: 20px; /* Change the font size as needed */
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 20px;
     margin-right: 20px; /* Adjust the margin to decrease spacing between words */
+    margin-left: 5px;
 }
 
 .navbar a:last-child {

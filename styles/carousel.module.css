@@ -15,10 +15,11 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    font-family: 'Comic Sans MS', sans-serif; /* Change the font family as needed */
+    font-family: 'Comic Sans MS', sans-serif;
     font-size: 16px;
+    color: rgb(255, 255, 255); 
   }
   
   .fact {
@@ -29,7 +30,7 @@
     padding: 10px;
     margin: 0 5px;
     cursor: pointer;
-    font-family: 'Comic Sans MS', sans-serif; /* Change the font family as needed */
+    font-family: 'Comic Sans MS', sans-serif;
     font-size: 15px;
   }
   
