@@ -1,5 +1,6 @@
 // pages/table.js
 import { useState, useEffect } from 'react';
+import backgroundStyles from '../styles/background.module.css';
 import Navbar from '../components/Navbar';
 import styles from '../styles/table.module.css';
 
@@ -28,9 +29,10 @@ const TablePage = () => {
   };
 
   return (
-    <div>
+    <div className={backgroundStyles.wrapper}>
       <Navbar />
-      <h1>Table Page</h1>
+      <main className={backgroundStyles.mainContainer}>
+      <h1>Cats' Table</h1>
       <table className={styles.table}>
         <thead>
           <tr>
@@ -68,6 +70,7 @@ const TablePage = () => {
           Next
         </button>
       </div>
+      </main>
     </div>
   );
 };

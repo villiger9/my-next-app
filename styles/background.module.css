@@ -1,0 +1,21 @@
+/* styles/background.module.css */
+.wrapper {
+    margin: 0;
+    padding: 0;
+    background-image: url('../public/black-cat.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

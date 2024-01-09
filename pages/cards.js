@@ -1,14 +1,17 @@
 // pages/cards.js
 import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
+import backgroundStyles from '../styles/background.module.css';
 import Carousel from '../components/Carousel';
 
 const CardsPage = ({ facts }) => {
   return (
-    <div>
+    <div className={backgroundStyles.wrapper}>
       <Navbar />
-      <h1>Cards Page</h1>
+      <main className={backgroundStyles.mainContainer}>
+      <h1>Cats' Cards</h1>
       <Carousel facts={facts} />
+      </main>
     </div>
   );
 };
