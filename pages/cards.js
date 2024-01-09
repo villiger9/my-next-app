@@ -3,13 +3,15 @@ import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import backgroundStyles from '../styles/background.module.css';
 import Carousel from '../components/Carousel';
+import textStyles from '../styles/text-styles.module.css';
+
 
 const CardsPage = ({ facts }) => {
   return (
     <div className={backgroundStyles.wrapper}>
       <Navbar />
       <main className={backgroundStyles.mainContainer}>
-      <h1>Cats' Cards</h1>
+      <h1 className={textStyles.customheading}>Cats' Cards</h1>
       <Carousel facts={facts} />
       </main>
     </div>

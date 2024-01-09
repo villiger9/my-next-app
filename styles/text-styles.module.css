@@ -1,0 +1,15 @@
+/* styles/text-styles.module.css */
+.customheading {
+    font-size: 24px;
+    color: #ffffff;
+    /* Add other styles as needed */
+    font-family: 'Comic Sans MS', sans-serif;
+    
+}
+
+.customparagraph {
+    font-size: 16px;
+    color: #ffffff;
+    /* Add other styles as needed */
+    font-family: 'Comic Sans MS', sans-serif;
+}

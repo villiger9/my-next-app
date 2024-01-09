@@ -1,8 +1,14 @@
 /* styles/table.module.css */
-.table {
+.tableContainer {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
   }
   
   .table th,
@@ -10,9 +16,11 @@
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
+    color: white; /* Font color set to white */
   }
   
   .table th {
     background-color: #f2f2f2;
+    font-family: 'Comic Sans MS', sans-serif; /* Change the font to Comic Sans MS */
   }
   

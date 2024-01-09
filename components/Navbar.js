@@ -1,12 +1,12 @@
 // components/Navbar.js
-import Link from 'next/link';
+import styles from '../styles/navbar.module.css';
 
 const Navbar = () => {
   return (
-    <nav>
-      <Link href="/">Home</Link>
-      <Link href="/table">Table</Link>
-      <Link href="/cards">Cards</Link>
+    <nav className={styles.navbar}>
+      <a href="/">Home</a>
+      <a href="/table">Table</a>
+      <a href="/cards">Cards</a>
     </nav>
   );
 };
