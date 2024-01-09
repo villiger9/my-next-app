@@ -13,14 +13,15 @@
   
   .table th,
   .table td {
-    border: 1px solid #ddd;
+    font-size: 17px;
+    border: 1px solid #000000;
     padding: 10px;
     text-align: left;
-    color: white; /* Font color set to white */
+    color: rgb(255, 255, 255); /* Font color set to white */
   }
   
   .table th {
-    background-color: #f2f2f2;
+    background-color: #000000;
     font-family: 'Comic Sans MS', sans-serif; /* Change the font to Comic Sans MS */
   }
   

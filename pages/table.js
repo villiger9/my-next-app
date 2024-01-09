@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import backgroundStyles from '../styles/background.module.css';
 import Navbar from '../components/Navbar';
 import styles from '../styles/table.module.css';
+import textStyles from '../styles/text-styles.module.css';
 
 const TablePage = () => {
   const [breeds, setBreeds] = useState([]);
@@ -32,7 +33,7 @@ const TablePage = () => {
     <div className={backgroundStyles.wrapper}>
       <Navbar />
       <main className={backgroundStyles.mainContainer}>
-      <h1>Cats' Table</h1>
+      <h1 className={textStyles.customheading}>Cats' Table</h1>
       <table className={styles.table}>
         <thead>
           <tr>
